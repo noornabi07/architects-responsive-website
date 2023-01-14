@@ -34,9 +34,11 @@ main{
     margin-top: 19px;
 }
 
-/* common styles part end */
+/* --------------------------------
+common styles part ended
+------------------------------- */
 
-/* ---------------------------
+/* ------------------------------
 header section part styles start
 ------------------------------- */
 .header-section{
@@ -65,9 +67,9 @@ header section part styles start
     font-size: 20px;
 }
 
-/* ----------------------------
-header section part styles 
--------------------------*/
+/* ------------------------------
+header section part styles ended
+---------------------------------*/
 .banner-section{
     display: flex;
     flex-direction: column;
@@ -92,7 +94,7 @@ header section part styles
 }
 
 /* ---------------------------------
-header section part styles end 
+header section part styles ended 
 -----------------------------------*/
 
 /* -----------------------
@@ -125,7 +127,7 @@ featured section styles part start
     color: orange;
 }
 /* -------------------------------------
-featured section styles part end 
+featured section styles part ended 
 --------------------------------------*/
 
 
@@ -185,7 +187,7 @@ experience section styles part start
     margin-top: 10px;
 }
 /* ---------------------------------------
-experience section styles part end
+experience section styles part ended
 ----------------------------------------*/
 
 
@@ -231,7 +233,7 @@ facts-section styles part start
     color: #727272;
 }
 /* -----------------------------------------
-facts-section styles part end
+facts-section styles part ended
 ----------------------------------------*/
 
 
@@ -257,3 +259,55 @@ sponser section styles part start
     justify-content: space-between;
     margin-top: 50px;
 }
+
+/* -----------------------------------------
+sponser section styles part ended
+----------------------------------------*/
+
+
+/* ---------------------------------------
+update section part start 
+-----------------------------------*/
+.update-form {
+    text-align: center;
+    background: orange;
+    padding: 80px 20px;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.update-btn {
+    padding: 15px 40px;
+    font-size: 25px;
+    background: #5f30d1;
+    font-weight: 700;
+}
+.update-form input {
+    padding: 15px 20px;
+    font-size: 25px;
+    color: grey;
+    border: none;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+/* ---------------------------------------
+update section part ended
+-----------------------------------*/
+
+/* ------------------------------------
+footer section part start 
+--------------------------------------*/
+footer{
+    background: #eac291;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 20px;
+}
+footer p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+/* ------------------------------------
+footer section part ended
+--------------------------------------*/
