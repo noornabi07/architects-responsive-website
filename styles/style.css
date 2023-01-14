@@ -13,7 +13,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 main{
-    max-width: 1124px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 .mrgtophaf{
@@ -94,3 +94,36 @@ header section part styles
 /* ---------------------------------
 header section part styles end 
 -----------------------------------*/
+
+/* -----------------------
+featured section styles part start
+------------------------- */
+.featured-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.featured-teams-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.featured-txt-part h2{
+    font-size: 45px;
+}
+.featured-txt-part p{
+    color: #727272;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.yash{
+    color: #727272;
+}
+.orange{
+    color: orange;
+}
+/* -------------------------------------
+featured section styles part end 
+--------------------------------------*/
